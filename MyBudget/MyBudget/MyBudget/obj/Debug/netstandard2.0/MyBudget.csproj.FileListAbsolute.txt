@@ -1,0 +1,12 @@
+C:\Users\krydg\PersonalProjects\myBudget\-Mia-Bu-eto\MyBudget\MyBudget\MyBudget\bin\Debug\netstandard2.0\MyBudget.deps.json
+C:\Users\krydg\PersonalProjects\myBudget\-Mia-Bu-eto\MyBudget\MyBudget\MyBudget\bin\Debug\netstandard2.0\MyBudget.dll
+C:\Users\krydg\PersonalProjects\myBudget\-Mia-Bu-eto\MyBudget\MyBudget\MyBudget\bin\Debug\netstandard2.0\MyBudget.pdb
+C:\Users\krydg\PersonalProjects\myBudget\-Mia-Bu-eto\MyBudget\MyBudget\MyBudget\obj\Debug\netstandard2.0\MyBudget.csprojAssemblyReference.cache
+C:\Users\krydg\PersonalProjects\myBudget\-Mia-Bu-eto\MyBudget\MyBudget\MyBudget\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\krydg\PersonalProjects\myBudget\-Mia-Bu-eto\MyBudget\MyBudget\MyBudget\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\krydg\PersonalProjects\myBudget\-Mia-Bu-eto\MyBudget\MyBudget\MyBudget\obj\Debug\netstandard2.0\MyBudget.AssemblyInfoInputs.cache
+C:\Users\krydg\PersonalProjects\myBudget\-Mia-Bu-eto\MyBudget\MyBudget\MyBudget\obj\Debug\netstandard2.0\MyBudget.AssemblyInfo.cs
+C:\Users\krydg\PersonalProjects\myBudget\-Mia-Bu-eto\MyBudget\MyBudget\MyBudget\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\krydg\PersonalProjects\myBudget\-Mia-Bu-eto\MyBudget\MyBudget\MyBudget\obj\Debug\netstandard2.0\MyBudget.dll
+C:\Users\krydg\PersonalProjects\myBudget\-Mia-Bu-eto\MyBudget\MyBudget\MyBudget\obj\Debug\netstandard2.0\MyBudget.pdb
+C:\Users\krydg\PersonalProjects\myBudget\-Mia-Bu-eto\MyBudget\MyBudget\MyBudget\obj\Debug\netstandard2.0\Views\OverViewPage.xaml.g.cs
