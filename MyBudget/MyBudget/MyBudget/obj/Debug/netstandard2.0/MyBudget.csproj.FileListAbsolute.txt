@@ -6,7 +6,9 @@ C:\Users\krydg\PersonalProjects\myBudget\-Mia-Bu-eto\MyBudget\MyBudget\MyBudget\
 C:\Users\krydg\PersonalProjects\myBudget\-Mia-Bu-eto\MyBudget\MyBudget\MyBudget\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
 C:\Users\krydg\PersonalProjects\myBudget\-Mia-Bu-eto\MyBudget\MyBudget\MyBudget\obj\Debug\netstandard2.0\MyBudget.AssemblyInfoInputs.cache
 C:\Users\krydg\PersonalProjects\myBudget\-Mia-Bu-eto\MyBudget\MyBudget\MyBudget\obj\Debug\netstandard2.0\MyBudget.AssemblyInfo.cs
-C:\Users\krydg\PersonalProjects\myBudget\-Mia-Bu-eto\MyBudget\MyBudget\MyBudget\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\krydg\PersonalProjects\myBudget\-Mia-Bu-eto\MyBudget\MyBudget\MyBudget\obj\Debug\netstandard2.0\MyBudget.dll
 C:\Users\krydg\PersonalProjects\myBudget\-Mia-Bu-eto\MyBudget\MyBudget\MyBudget\obj\Debug\netstandard2.0\MyBudget.pdb
 C:\Users\krydg\PersonalProjects\myBudget\-Mia-Bu-eto\MyBudget\MyBudget\MyBudget\obj\Debug\netstandard2.0\Views\OverViewPage.xaml.g.cs
+C:\Users\krydg\PersonalProjects\myBudget\-Mia-Bu-eto\MyBudget\MyBudget\MyBudget\obj\Debug\netstandard2.0\Views\InItemPage.xaml.g.cs
+C:\Users\krydg\PersonalProjects\myBudget\-Mia-Bu-eto\MyBudget\MyBudget\MyBudget\obj\Debug\netstandard2.0\Views\OutItemPage.xaml.g.cs
+C:\Users\krydg\PersonalProjects\myBudget\-Mia-Bu-eto\MyBudget\MyBudget\MyBudget\obj\Debug\netstandard2.0\XamlC.stamp

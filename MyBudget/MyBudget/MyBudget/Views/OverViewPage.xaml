@@ -4,7 +4,36 @@
              xmlns:prism="http://prismlibrary.com"
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="MyBudget.Views.OverViewPage">
-    <StackLayout>
-        <Label Text="OverViewPage"></Label>
-    </StackLayout>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height=".01*"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height=".01*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width=".01*"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width=".01*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Label Text="Your Budget At a true" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" HorizontalOptions="CenterAndExpand"></Label>
+        <ListView Grid.Row="2" Grid.ColumnSpan="2" Grid.Column="1" ItemsSource="{Binding BudgetItems}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout>
+                            <Label Text="{Binding Title}"></Label>
+                            <Label Text="{Binding Description}"></Label>
+                            <Label Text="{Binding Price}"></Label>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button Grid.Row="3" Grid.Column="1" Text="Money In"></Button>
+        <Button Grid.Row="3" Grid.Column="2" Text="Money Out"></Button>
+    </Grid>
 </ContentPage>

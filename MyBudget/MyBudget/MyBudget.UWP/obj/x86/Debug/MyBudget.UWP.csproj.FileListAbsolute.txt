@@ -315,3 +315,6 @@ C:\Users\krydg\PersonalProjects\myBudget\-Mia-Bu-eto\MyBudget\MyBudget\MyBudget.
 C:\Users\krydg\PersonalProjects\myBudget\-Mia-Bu-eto\MyBudget\MyBudget\MyBudget.UWP\obj\x86\Debug\resources.en.resfiles.intermediate
 C:\Users\krydg\PersonalProjects\myBudget\-Mia-Bu-eto\MyBudget\MyBudget\MyBudget.UWP\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\krydg\PersonalProjects\myBudget\-Mia-Bu-eto\MyBudget\MyBudget\MyBudget.UWP\obj\x86\Debug\.winmd_cache\$Microsoft.Graphics.Canvas.winmd_636160967180000000.json
+C:\Users\krydg\PersonalProjects\myBudget\-Mia-Bu-eto\MyBudget\MyBudget\MyBudget.UWP\bin\x86\Debug\Xamarin.Essentials.dll
+C:\Users\krydg\PersonalProjects\myBudget\-Mia-Bu-eto\MyBudget\MyBudget\MyBudget.UWP\bin\x86\Debug\Xamarin.Essentials.pdb
+C:\Users\krydg\PersonalProjects\myBudget\-Mia-Bu-eto\MyBudget\MyBudget\MyBudget.UWP\obj\x86\Debug\Xamarin.Essentials.pri.xml

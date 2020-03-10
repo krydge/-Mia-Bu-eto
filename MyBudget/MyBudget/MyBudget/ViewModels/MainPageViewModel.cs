@@ -6,7 +6,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Xamarin.Essentials;
 using Xamarin.Forms;
+
 
 namespace MyBudget.ViewModels
 {
@@ -21,8 +23,8 @@ namespace MyBudget.ViewModels
         {
             _pageDialogService = pageDialogeService;
             Title = "Main Page";
-            compareHash = "true";
-            compareUserName = "krydge";
+            Preferences.Set("Password", "true");
+            Preferences.Set("UserName", "krydge");
         }
 
         //public void HashSet()
@@ -52,7 +54,7 @@ namespace MyBudget.ViewModels
         public Command testPassword;
         public Command TestPassword => testPassword ?? (testPassword = new Command(async() =>
         {
-            if (Password == compareHash && UserName == compareUserName)
+            if (Password == Preferences.Get("Password", "") && UserName == Preferences.Get("UserName", ""))
             {
                 NavigationParameters parameters = new NavigationParameters();
                 await Services.TestNavigationService.TestableNavigateAsync(NavigationService, nameof(MyBudget.Views.OverViewPage), parameters, true, true);

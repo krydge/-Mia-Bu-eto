@@ -31,6 +31,8 @@ namespace MyBudget
             containerRegistry.RegisterForNavigation<NavigationPage>();
             containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>();
             containerRegistry.RegisterForNavigation<OverViewPage, OverViewPageViewModel>();
+            containerRegistry.RegisterForNavigation<AddItemPage, InItemPageViewModel>();
+            containerRegistry.RegisterForNavigation<SubtractItemPage, OutItemPageViewModel>();
         }
     }
 }

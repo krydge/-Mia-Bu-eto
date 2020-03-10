@@ -18,9 +18,13 @@ android.support.v7.widget.RecyclerView;C:\Users\krydg\PersonalProjects\myBudget\
 android.support.v7.widget.Toolbar;C:\Users\krydg\PersonalProjects\myBudget\-Mia-Bu-eto\MyBudget\MyBudget\MyBudget.Android\obj\Release\90\lp\41\jl\res\layout\rootlayout.xml
 android.support.v7.widget.Toolbar;C:\Users\krydg\PersonalProjects\myBudget\-Mia-Bu-eto\MyBudget\MyBudget\MyBudget.Android\obj\Release\90\lp\41\jl\res\layout\shellcontent.xml
 android.support.v7.widget.Toolbar;obj\Release\90\res\layout\toolbar.xml
+cache-path;C:\Users\krydg\PersonalProjects\myBudget\-Mia-Bu-eto\MyBudget\MyBudget\MyBudget.Android\obj\Release\90\lp\43\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-cache-path;C:\Users\krydg\PersonalProjects\myBudget\-Mia-Bu-eto\MyBudget\MyBudget\MyBudget.Android\obj\Release\90\lp\43\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-path;C:\Users\krydg\PersonalProjects\myBudget\-Mia-Bu-eto\MyBudget\MyBudget\MyBudget.Android\obj\Release\90\lp\43\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 FrameLayout;C:\Users\krydg\PersonalProjects\myBudget\-Mia-Bu-eto\MyBudget\MyBudget\MyBudget.Android\obj\Release\90\lp\41\jl\res\layout\bottomtablayout.xml
 item;obj\Release\90\res\values\styles.xml
 LinearLayout;C:\Users\krydg\PersonalProjects\myBudget\-Mia-Bu-eto\MyBudget\MyBudget\MyBudget.Android\obj\Release\90\lp\41\jl\res\layout\bottomtablayout.xml
+paths;C:\Users\krydg\PersonalProjects\myBudget\-Mia-Bu-eto\MyBudget\MyBudget\MyBudget.Android\obj\Release\90\lp\43\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 resources;obj\Release\90\res\values\styles.xml
 set;C:\Users\krydg\PersonalProjects\myBudget\-Mia-Bu-eto\MyBudget\MyBudget\MyBudget.Android\obj\Release\90\lp\41\jl\res\anim\enterfromleft.xml
 set;C:\Users\krydg\PersonalProjects\myBudget\-Mia-Bu-eto\MyBudget\MyBudget\MyBudget.Android\obj\Release\90\lp\41\jl\res\anim\enterfromright.xml
