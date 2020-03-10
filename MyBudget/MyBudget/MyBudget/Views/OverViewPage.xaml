@@ -33,7 +33,7 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        <Button Grid.Row="3" Grid.Column="1" Text="Money In"></Button>
-        <Button Grid.Row="3" Grid.Column="2" Text="Money Out"></Button>
+        <Button Grid.Row="3" Grid.Column="1" Text="Money In"  Command="{Binding MoneyIn}"></Button>
+        <Button Grid.Row="3" Grid.Column="2" Text="Money Out" Command="{Binding MoneyOut}"></Button>
     </Grid>
 </ContentPage>

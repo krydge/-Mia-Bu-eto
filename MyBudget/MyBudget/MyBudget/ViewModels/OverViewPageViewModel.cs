@@ -1,6 +1,7 @@
 ﻿using MyBudget.Models;
 using Prism.Commands;
 using Prism.Mvvm;
+using Prism.Navigation;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,11 +9,12 @@ using Xamarin.Forms;
 
 namespace MyBudget.ViewModels
 {
-    public class OverViewPageViewModel : BindableBase
+    public class OverViewPageViewModel : ViewModelBase
     {
 
         public IList<BudgetItem> BudgetItems { get; private set; }
-        public OverViewPageViewModel()
+        public OverViewPageViewModel(INavigationService navigationService)
+            : base(navigationService)
         {
             BudgetItems = new List<BudgetItem>();
             SetBudgetItems();
@@ -45,7 +47,21 @@ namespace MyBudget.ViewModels
                 Title = "Hamburger",
                 Description = "A hamburger from fredds"
             });
-
         }
+
+
+            public Command moneyIn;
+            public Command MoneyIn => moneyIn ?? (moneyIn = new Command( async() =>
+            {
+                NavigationParameters parameters = new NavigationParameters();
+                await Services.TestNavigationService.TestableNavigateAsync(NavigationService, nameof(MyBudget.Views.AddItemPage), parameters, true, true);
+            }));
+
+        public Command moneyOut;
+        public Command MoneyOut => moneyOut ?? (moneyOut = new Command(async () =>
+        {
+            NavigationParameters parameters = new NavigationParameters();
+            await Services.TestNavigationService.TestableNavigateAsync(NavigationService, nameof(MyBudget.Views.SubtractItemPage), parameters, true, true);
+        }));
     }
 }

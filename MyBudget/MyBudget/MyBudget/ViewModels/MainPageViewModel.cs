@@ -15,8 +15,7 @@ namespace MyBudget.ViewModels
     public class MainPageViewModel : ViewModelBase
     {
         readonly IPageDialogService _pageDialogService;
-        private string compareHash;
-        private string compareUserName;
+
         
         public MainPageViewModel(INavigationService navigationService, IPageDialogService pageDialogeService)
             : base(navigationService)
